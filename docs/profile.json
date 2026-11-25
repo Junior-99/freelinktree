@@ -3,8 +3,8 @@
   "handle": "JuniorTheNerdKing",
   "bio": "My socials and everything I’m building.",
   "avatar": "",
-  "theme": "arcade",
-  "accent": "#e2fa78",
+  "theme": "paper",
+  "accent": "#f50505",
   "shape": "rounded",
   "layout": "list",
   "links": [
@@ -16,10 +16,38 @@
       "visible": true
     },
     {
+      "title": "FlipMall",
+      "description": "Buy and Sell",
+      "url": "https://www.flipmall.store/",
+      "icon": "shop",
+      "visible": true
+    },
+    {
       "title": "GitHub",
       "description": "Code and projects",
       "url": "https://github.com/Junior-99",
       "icon": "code",
+      "visible": true
+    },
+    {
+      "title": "Instagram",
+      "description": "just my IG",
+      "url": "https://www.instagram.com/juniorsworld_0/",
+      "icon": "photo",
+      "visible": true
+    },
+    {
+      "title": "YouTube",
+      "description": "Just my Youtube Channel",
+      "url": "https://www.youtube.com/@juniorsworld_0",
+      "icon": "video",
+      "visible": true
+    },
+    {
+      "title": "Twitter/ X",
+      "description": "Just my X account",
+      "url": "https://x.com/Theo_MJ_",
+      "icon": "link",
       "visible": true
     }
   ]
