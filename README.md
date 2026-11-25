@@ -17,4 +17,4 @@ Studio saves drafts in the current browser. For optional direct publishing, crea
 
 Run `npm start` from the repository, then open the printed URL. Run `npm run check` to check JavaScript syntax. The public settings live in `docs/profile.json` and the visual styles in `docs/style.css`.
 
-For a new GitHub repository, update the repository name in `docs/model.js`. In **Settings → Pages**, select **Deploy from a branch**, choose your default branch and the **/docs** folder, and save.
+For a new GitHub repository, update the repository and branch names in `docs/model.js`. In **Settings → Pages**, select **Deploy from a branch**, choose that branch and the **/docs** folder, and save.

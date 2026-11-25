@@ -1,4 +1,5 @@
 export const repository = "Junior-99/freelinktree";
+export const branch = "main";
 export const filePath = "docs/profile.json";
 export const themes = {
   arcade: { label: "Midnight Arcade", accent: "#e2fa78" },

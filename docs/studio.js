@@ -1,4 +1,4 @@
-import { blankLink, filePath, icons, loadProfile, repository, safeUrl, themes } from "./model.js";
+import { blankLink, branch, filePath, icons, loadProfile, repository, safeUrl, themes } from "./model.js";
 
 const element = (id) => document.getElementById(id);
 const form = element("editor");
@@ -137,7 +137,7 @@ element("open-publish").addEventListener("click", () => {
 element("close-publish").addEventListener("click", () => dialog.close());
 dialog.addEventListener("cancel", (event) => { if (publishing) event.preventDefault(); });
 dialog.addEventListener("close", () => { tokenField.value = ""; });
-element("edit-github").href = `https://github.com/${repository}/edit/HEAD/${filePath}`;
+element("edit-github").href = `https://github.com/${repository}/edit/${branch}/${filePath}`;
 element("copy").addEventListener("click", async () => {
   try {
     await navigator.clipboard.writeText(json(profile));
@@ -188,7 +188,7 @@ element("publish-form").addEventListener("submit", async (event) => {
     if (json(remoteProfile) !== json(profile)) {
       await requestGitHub(headers, {
         method: "PUT",
-        body: JSON.stringify({ message: "Update link page from Studio", content: encode(json(profile)), sha: remote.sha }),
+        body: JSON.stringify({ message: "Update link page from Studio", content: encode(json(profile)), sha: remote.sha, branch }),
       });
     }
     published = structuredClone(profile);
