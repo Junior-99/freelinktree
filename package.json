@@ -1,0 +1,9 @@
+{
+  "name": "freelinktree",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node preview.mjs",
+    "check": "node --check docs/model.js && node --check docs/public.js && node --check docs/studio.js && node --check preview.mjs"
+  }
+}

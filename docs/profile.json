@@ -1,0 +1,26 @@
+{
+  "name": "Junior The Nerd King",
+  "handle": "JuniorTheNerdKing",
+  "bio": "My socials and everything I’m building.",
+  "avatar": "",
+  "theme": "arcade",
+  "accent": "#e2fa78",
+  "shape": "rounded",
+  "layout": "list",
+  "links": [
+    {
+      "title": "NerdSpace",
+      "description": "Your fandom. Your pace.",
+      "url": "https://junior-99.github.io/nerdspace-site/",
+      "icon": "chat",
+      "visible": true
+    },
+    {
+      "title": "GitHub",
+      "description": "Code and projects",
+      "url": "https://github.com/Junior-99",
+      "icon": "code",
+      "visible": true
+    }
+  ]
+}
